@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: #2b88eb;
+}
+
+#level-title {
+  
+  font-family: 'Happy Monkey', system-ui;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: rgb(248, 43, 43);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(245, 55, 55);
+}
+
+.green {
+  background-color: rgb(39, 211, 39);
+}
+
+.blue {
+  background-color: rgb(53, 53, 241);
+}
+
+.yellow {
+  background-color: rgb(231, 231, 36);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
